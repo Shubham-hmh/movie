@@ -53,7 +53,7 @@ const SingleCard = () => {
                         </div>
 
 
-                        <p className="desc" dangerouslySetInnerHTML={{ __html: singleShowData?.summary }}></p>
+                        <p className="description" dangerouslySetInnerHTML={{ __html: singleShowData?.summary }}></p>
                         <a href={singleShowData?.officialSite} className="btn btn-primary">Watch Show</a>
 
                     </div>
