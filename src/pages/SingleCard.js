@@ -24,7 +24,7 @@ const SingleCard = () => {
 
                 <div className="col-12">
                     <div className="single-blog-card shadow-lg p-3 mb-5 bg-white rounded">
-                        <Link to="/" className='d-flex align-items-center gap-10'>
+                        <Link to="/Card" className='d-flex align-items-center gap-10'>
                         <HiOutlineArrowLeft className='fs-4' /> Go Back to Movies</Link>
                         <h3 className="title">
                             {singleShowData?.name}
